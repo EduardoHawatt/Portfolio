@@ -91,3 +91,24 @@ footer p {
 h1 strong{
     font-weight: 400;
 }
+@media(max-width:991px){
+    .trabalhos {
+     display: flex;
+        flex-direction: column;
+ } 
+     
+ .menu {
+      display: flex;
+        flex-direction: column;   
+ }
+     .nome h1{
+         text-align: center;
+     }
+     .itens-menu{
+           display: flex;
+        flex-direction: column;  
+     }
+ }
+ 
+ 
+ 
