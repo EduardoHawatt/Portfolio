@@ -88,3 +88,6 @@ footer p {
 .posters img {
     width: 100%;
 }
+h1 strong{
+    font-weight: 400;
+}
