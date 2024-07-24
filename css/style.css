@@ -1,0 +1,90 @@
+.grid{
+   max-width: 1500px;
+   width: 100%;
+   position: relative; 
+   margin: 0 auto;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      font-family: "Montserrat", sans-serif;
+      padding-top: 30px;
+}
+
+.itens-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.icone{
+    height: 40px;
+    width: 40px;
+    background: #000;
+    border-radius: 100px;
+}
+.links a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    margin: 0 30px
+}
+
+.trabalhos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 50px;
+    
+}
+.trabalho {
+    position: relative
+}
+.trabalho img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-family: Arial;
+    
+}
+.links a:hover {
+    font-weight: 600;
+}
+
+.overlay {
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    font-weight: bold;
+    transition: opacity 0.5s ease;
+    font-size: 40px;
+  }
+
+  .trabalho:hover .overlay {
+    opacity: 1;
+  }
+
+  .item img {
+    width: 100%;
+}
+.posters {
+    display: grid;
+       grid-template-columns: 1fr 1fr;
+}
+.posters img {
+    width: 100%;
+}
