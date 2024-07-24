@@ -111,4 +111,32 @@ h1 strong{
  }
  
  
- 
+ .sobre{
+    display: flex;
+}
+.foto-edu img {
+    width: 100%;
+}
+.texto-sobre {
+    width: 100%;
+}
+.texto-sobre {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nome p {
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.sobre{
+    column-gap: 30px;
+    padding: 40px 0;
+        display: flex;
+    align-items: center;
+}
+
+.texto-sobre > p {
+    line-height: 1.5;
+}
