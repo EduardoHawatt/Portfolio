@@ -108,6 +108,12 @@ h1 strong{
            display: flex;
         flex-direction: column;  
      }
+     .sobre{
+        flex-direction: column;
+    }
+    .links {
+        display: flex;
+    }
  }
  
  
